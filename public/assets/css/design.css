@@ -1,0 +1,246 @@
+#cover-spin {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    display: none;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#cekkepsek {
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    width: 70%;
+    font-size: 13px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.detail-sekolah {
+    border-bottom: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+#bg-jadwal {
+    background-color: white;
+    margin-top: 5px;
+}
+
+.mybtn {
+    background-color: #483D8B;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.mybtn-primary {
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.mybtn-inverse {
+    background-color: #292b2c;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.mybtn-warning {
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.mybtn-danger {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.mybtn-info {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.modal-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    padding: .8em 1.2em;
+    color: black;
+    background-color: white;
+
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@keyframes load {
+    0% {
+        opacity: 0.08;
+        /*         font-size: 10px; */
+        /* 				font-weight: 400; */
+        filter: blur(5px);
+        letter-spacing: 3px;
+    }
+
+    100% {
+        /*         opacity: 1; */
+        /*         font-size: 12px; */
+        /* 				font-weight:600; */
+        /* 				filter: blur(0); */
+    }
+}
+
+.animate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    /* 	width: 350px; */
+    /* 	font-size:26px; */
+    font-family: Helvetica, sans-serif, Arial;
+    animation: load 1.2s infinite 0s ease-in-out;
+    animation-direction: alternate;
+    text-shadow: 0 0 1px white;
+}
+
+
+.card-2-column {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50% auto;
+}
+
+.column {
+
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.column .caption {
+    font-size: 13px;
+    font-family: 'comic sans ms';
+    text-align: center;
+}
+
+.set-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.card-2-column {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50% auto;
+}
+
+.column {
+
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.column .caption {
+    font-size: 13px;
+    font-family: 'comic sans ms';
+    text-align: center;
+}
+
+.set-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.column-2{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 50% auto;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+}
+.column-1{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 100%;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+}
+.white{
+    background-color: white;
+}
+.information-detail {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100%;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+}
+
+.information-3-colomn {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 30% 5% auto;
+}
+
+.information-3-colomn p {
+    font-size: 13px;
+}
+
+.information-3-colomn .bottom {
+    border-bottom: 2px solid whitesmoke;
+}
